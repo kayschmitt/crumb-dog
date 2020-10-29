@@ -21,7 +21,10 @@ const StyledButton = withStyles({
     height: 48,
     fontSize: '18px',
     padding: '0 16px',
-  
+    cursor: 'pointer',
+    '&:hover': {
+      background:'rgb(246, 211, 43)',
+  }
   },
   label: {
     textTransform: 'capitalize',
@@ -44,13 +47,13 @@ function App() {
   <div className="box">
     <StyledButton variant="outlined" className='button' onClick={(e) => {
       e.preventDefault();
-      window.location.href='https://www.instagram.com/crumbdog_/';
+      window.location.href='https://www.instagram.com/crumb.dog/';
       }}>
       <FontAwesomeIcon icon={faInstagram} style={{paddingRight: "10px"}}/>Instagram </StyledButton>
     </div>
   <div className="box"><StyledButton variant="outlined"onClick={(e) => {
       e.preventDefault();
-      window.location.href='https://www.tiktok.com/@crumbdog_';
+      window.location.href='https://www.tiktok.com/@crumb.dog';
       }}><FontAwesomeIcon icon={faTiktok} style={{paddingRight: "10px"}}/>TikTok</StyledButton></div>
   <div className="box"><StyledButton variant="outlined"onClick={(e) => {
       e.preventDefault();
