@@ -37,7 +37,7 @@ const StyledButton = withStyles({
   root: {
     background: "#E4432C",
     borderRadius: 6,
-    border: "2px solid blac",
+    border: "2px solid black",
     color: "black",
     fontWeight: "bold",
     fontSize: "24px",
