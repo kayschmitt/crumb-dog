@@ -52,6 +52,24 @@ const StyledButton = withStyles({
   },
 })(Button);
 
+const StyledButtonSmall = withStyles({
+  root: {
+    background: "#FBE596",
+    borderRadius: 6,
+    border: "2px solid black",
+    color: "black",
+    fontWeight: "bold",
+    fontSize: "18px",
+    cursor: "pointer",
+    "&:hover": {
+      background: "#FBE596",
+    },
+  },
+  label: {
+    textTransform: "capitalize",
+  },
+})(Button);
+
 function App() {
   return (
     <div className="app">
@@ -68,6 +86,29 @@ function App() {
           >
             GET OFFICIAL MERCH
           </StyledButton>
+
+          <div className="secondaryButtons">
+            <StyledButtonSmall
+              variant="outlined"
+              style={{ marginRight: "5px" }}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = "https://shoppawzzle.com/?ref=crumbdog";
+              }}
+            >
+              Pawzzle Snuffle Mat
+            </StyledButtonSmall>
+            <StyledButtonSmall
+              variant="outlined"
+              style={{ marginLeft: "5px" }}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = "https://www.amazon.com/shop/crumb.dog";
+              }}
+            >
+              Amazon Favorites
+            </StyledButtonSmall>
+          </div>
         </div>
       </div>
 

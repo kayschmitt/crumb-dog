@@ -61,6 +61,10 @@
   padding-bottom: 12px;
 }
 
+.secondaryButtons {
+  padding-top: 24px;
+}
+
 .headerButtons {
   /* margin: 0 auto; */
   text-align: center;
