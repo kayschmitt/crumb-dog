@@ -40,8 +40,8 @@ const StyledButton = withStyles({
     border: "2px solid black",
     color: "black",
     fontWeight: "bold",
-    fontSize: "24px",
-    padding: "18px 0",
+    fontSize: "20px",
+    padding: "14px 0",
     cursor: "pointer",
     "&:hover": {
       background: "#E4432C",
