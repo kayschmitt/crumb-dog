@@ -93,10 +93,10 @@ function App() {
               style={{ marginRight: "5px" }}
               onClick={(e) => {
                 e.preventDefault();
-                window.location.href = "https://shoppawzzle.com/?ref=crumbdog";
+                window.location.href = "https://www.etsy.com/shop/CrumbDog";
               }}
             >
-              Pawzzle Snuffle Mat
+              Etsy Shop
             </StyledButtonSmall>
             <StyledButtonSmall
               variant="outlined"
