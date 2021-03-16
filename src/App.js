@@ -93,10 +93,10 @@ function App() {
               style={{ marginRight: "5px" }}
               onClick={(e) => {
                 e.preventDefault();
-                window.location.href = "https://www.etsy.com/shop/CrumbDog";
+                window.location.href = "https://petcu.be/30xbwsj";
               }}
             >
-              Etsy Shop
+              Petcube
             </StyledButtonSmall>
             <StyledButtonSmall
               variant="outlined"
