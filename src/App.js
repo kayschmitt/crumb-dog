@@ -8,6 +8,7 @@ import {
   faInstagram,
   faTiktok,
   faAmazon,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
@@ -114,6 +115,16 @@ function App() {
 
       <div className="socialButtons">
         <div className="headerButtons">
+        <SocialButton
+            variant="outlined"
+            className="button"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "https://www.youtube.com/channel/UCM9Lzn783X6hhCI6XjUmGkw/?sub_confirmation=1";
+            }}
+          >
+            <FontAwesomeIcon icon={faYoutube} />
+          </SocialButton>
           <SocialButton
             variant="outlined"
             className="button"
