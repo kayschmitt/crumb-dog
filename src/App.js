@@ -94,10 +94,10 @@ function App() {
               style={{ marginRight: "5px" }}
               onClick={(e) => {
                 e.preventDefault();
-                window.location.href = "https://petcu.be/30xbwsj";
+                window.location.href = "https://www.lovedandy.com/";
               }}
             >
-              Petcube
+              Dandy<br/>CRUMBDOG10
             </StyledButtonSmall>
             <StyledButtonSmall
               variant="outlined"
